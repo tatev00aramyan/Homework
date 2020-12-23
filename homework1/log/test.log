@@ -1,0 +1,14 @@
+ INFO::2020-12-23 19:24:28,242:: ----- My first message! 
+ INFO::2020-12-23 19:24:32,027:: ----- 1
+ INFO::2020-12-23 19:24:39,673:: ----- 1
+ ERROR::2020-12-23 19:25:00,624:: ----- Error: * takes 2 values.
+Traceback (most recent call last):
+  File "C:/git/Homework/homework1/PN_Calculator.py", line 40, in <module>
+    stack.append(operators[token](stack.pop(-1), stack.pop()))
+IndexError: pop from empty list
+ ERROR::2020-12-23 19:25:00,627:: ----- Error: / takes 2 values.
+Traceback (most recent call last):
+  File "C:/git/Homework/homework1/PN_Calculator.py", line 40, in <module>
+    stack.append(operators[token](stack.pop(-1), stack.pop()))
+IndexError: pop from empty list
+ INFO::2020-12-23 19:25:12,525:: ----- 1
